@@ -74,12 +74,16 @@ if __name__ == "__main__":
     for c in list(df.columns):
         if c.lower().endswith("_qc"):
             del df[c]
-    rich.print(df)
     variables = args.variables.split(",")
     if not variables:
         variables = list(df.columns)
     limits = json.loads(args.limits)
 
+    for v in list(df.columns):
+        if " (" in v:
+            rich.print(f"replacing {v}")
+            df = df.rename(columns={v: v.split(" (")[0]})
+    rich.print(df)
     rich.print(f"Processing variables {variables}")
 
     with open(args.qc_config) as f:
@@ -94,7 +98,6 @@ if __name__ == "__main__":
         tests = []
     else:
         tests = args.tests.split(",")
-
 
     df = dataset_qc(df, qc_config, show=args.show_qc, save=savedir, varlist=variables, limits=limits, tests=args.tests, paralell=True)
     rich.print(df)
