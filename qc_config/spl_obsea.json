@@ -1,0 +1,110 @@
+{
+  "SPL_all": {
+    "qartod": {
+      "gross_range_test": {
+        "fail_span": [
+          0,
+          200
+        ],
+        "suspect_span": [
+          40,
+          160
+        ]
+      },
+      "flat_line_test": {
+        "tolerance": 0.01,
+        "suspect_threshold": 60,
+        "fail_threshold": 120
+      },
+      "rate_of_change_test2": {
+        "threshold": 5,
+        "period": 24
+      },
+      "spike_test": {
+        "suspect_threshold": 30,
+        "fail_threshold": 50
+      }
+    }
+  },
+  "SPL_63": {
+    "qartod": {
+      "gross_range_test": {
+        "fail_span": [
+          0,
+          200
+        ],
+        "suspect_span": [
+          40,
+          160
+        ]
+      },
+      "flat_line_test": {
+        "tolerance": 0.01,
+        "suspect_threshold": 60,
+        "fail_threshold": 120
+      },
+      "rate_of_change_test2": {
+        "threshold": 5,
+        "period": 24
+      },
+      "spike_test": {
+        "suspect_threshold": 30,
+        "fail_threshold": 50
+      }
+    }
+  },
+  "SPL_125": {
+    "qartod": {
+      "gross_range_test": {
+        "fail_span": [
+          0,
+          200
+        ],
+        "suspect_span": [
+          40,
+          160
+        ]
+      },
+      "flat_line_test": {
+        "tolerance": 0.01,
+        "suspect_threshold": 60,
+        "fail_threshold": 120
+      },
+      "rate_of_change_test2": {
+        "threshold": 5,
+        "period": 24
+      },
+      "spike_test": {
+        "suspect_threshold": 30,
+        "fail_threshold": 50
+      }
+    }
+  },
+  "SPL_2000": {
+    "qartod": {
+      "gross_range_test": {
+        "fail_span": [
+          0,
+          200
+        ],
+        "suspect_span": [
+          40,
+          160
+        ]
+      },
+      "flat_line_test": {
+        "tolerance": 0.01,
+        "suspect_threshold": 60,
+        "fail_threshold": 120
+      },
+      "rate_of_change_test2": {
+        "threshold": 5,
+        "period": 24
+      },
+      "spike_test": {
+        "suspect_threshold": 30,
+        "fail_threshold": 50
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "Hm0": {
+    "qartod": {
+      "gross_range_test": {
+        "fail_span": [
+          -1,
+          15
+        ],
+        "suspect_span": [
+          0,
+          12
+        ]
+      },
+      "flat_line_test": {
+        "tolerance": 0.001,
+        "suspect_threshold": 14400,
+        "fail_threshold": 28800
+      },
+      "rate_of_change_test2": {
+        "threshold": 3,
+        "period": 25
+      }
+    }
+  },
+  "H3": {
+    "same_as": "Hm0"
+  },
+  "H10": {
+    "same_as": "Hm0"
+  },
+  "Hmax": {
+    "same_as": "Hm0"
+  },
+  "Tm02": {
+    "qartod": {
+      "gross_range_test": {
+        "fail_span": [
+          0,
+          15
+        ],
+        "suspect_span": [
+          0,
+          12
+        ]
+      },
+      "flat_line_test": {
+        "tolerance": 0.001,
+        "suspect_threshold": 14400,
+        "fail_threshold": 28800
+      },
+      "rate_of_change_test2": {
+        "threshold": 3,
+        "period": 25
+      }
+    }
+  },
+  "Tp": {
+    "same_as": "Tm02"
+  },
+  "Tz": {
+    "same_as": "Tm02"
+  },
+  "TpDir": {
+    "qartod": {
+      "gross_range_test": {
+        "fail_span": [
+          0,
+          360
+        ],
+        "suspect_span": [
+          0,
+          360
+        ]
+      },
+      "flat_line_test": {
+        "tolerance": 0.001,
+        "suspect_threshold": 14400,
+        "fail_threshold": 28800
+      }
+    }
+  },
+  "Spr1": {
+    "same_as": "TpDir"
+  },
+  "Mdir": {
+    "same_as": "TpDir"
+  }
+}

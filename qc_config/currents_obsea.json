@@ -1,0 +1,129 @@
+{
+    "CSPD": {
+        "qartod": {
+            "gross_range_test": {
+                "fail_span": [
+                    0,
+                    10
+                ],
+                "suspect_span": [
+                    0,
+                    2.5
+                ]
+            },
+            "spike_test": {
+                "suspect_threshold": 0.5,
+                "fail_threshold": 1
+            },
+            "rate_of_change_test2": {
+                "threshold": 3,
+                "period": 25
+            },
+            "flat_line_test": {
+                "tolerance": 0.005,
+                "suspect_threshold": 1200,
+                "fail_threshold": 2400
+            }
+        }
+    },
+    "CDIR": {
+        "qartod": {
+            "gross_range_test": {
+                "fail_span": [
+                    0,
+                    360
+                ],
+                "suspect_span": [
+                    0,
+                    360
+                ]
+            },
+            "flat_line_test": {
+                "tolerance": 0.01,
+                "suspect_threshold": 1200,
+                "fail_threshold": 2400
+            }
+        }
+    },
+    "VCUR": {
+        "qartod": {
+            "gross_range_test": {
+                "fail_span": [
+                    -10,
+                    10
+                ],
+                "suspect_span": [
+                    -2.5,
+                    2.5
+                ]
+            },
+            "spike_test": {
+                "suspect_threshold": 0.5,
+                "fail_threshold": 1
+            },
+            "rate_of_change_test2": {
+                "threshold": 3,
+                "period": 25
+            },
+            "flat_line_test": {
+                "tolerance": 0.005,
+                "suspect_threshold": 1200,
+                "fail_threshold": 2400
+            }
+        }
+    },
+    "UCUR": {
+        "qartod": {
+            "gross_range_test": {
+                "fail_span": [
+                    -10,
+                    10
+                ],
+                "suspect_span": [
+                    -2.5,
+                    2.5
+                ]
+            },
+            "spike_test": {
+                "suspect_threshold": 0.5,
+                "fail_threshold": 1
+            },
+            "rate_of_change_test2": {
+                "threshold": 3,
+                "period": 25
+            },
+            "flat_line_test": {
+                "tolerance": 0.005,
+                "suspect_threshold": 1200,
+                "fail_threshold": 2400
+            }
+        }
+    },
+    "ZCUR": {
+        "qartod": {
+            "gross_range_test": {
+                "fail_span": [
+                    -2,
+                    2
+                ],
+                "suspect_span": [
+                    -1,
+                    1
+                ]
+            },
+            "spike_test": {
+                "suspect_threshold": 0.5,
+                "fail_threshold": 1
+            },
+            "rate_of_change_test2": {
+                "threshold": 3,
+                "period": 25
+            },
+            "flat_line_test": {
+                "tolerance": 1e-05,
+                "suspect_threshold": 2400,
+                "fail_threshold": 4800
+            }
+        }
+    }
+}
